@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(./update-sha256.sh:*)"
+    ],
+    "deny": []
+  }
+}
