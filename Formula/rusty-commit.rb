@@ -2,27 +2,27 @@ class RustyCommit < Formula
   desc "Rust-powered AI commit message generator with 18+ AI providers"
   homepage "https://github.com/hongkongkiwi/rusty-commit"
   license "MIT"
-  version "1.0.24"
+  version "1.0.25"
 
   on_macos do
     on_arm do
-      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.24/rusty-commit-v1.0.24-aarch64-apple-darwin.tar.gz"
-      sha256 "e82493d6cd8cf67dd967a7bffa92ab2daf5dfe95dc7c8969e7fcfe81bc60ea78"
+      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.25/rusty-commit-v1.0.25-aarch64-apple-darwin.tar.gz"
+      sha256 "5bc45f58f9d6a80b3b23855185e130f1b45d99d0bd9a4ab93495c206aaa7f070"
     end
     on_intel do
-      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.24/rusty-commit-v1.0.24-x86_64-apple-darwin.tar.gz"
-      sha256 "462287e8a242d2794b20dad0ed93c1ac8daaa645a2ab1248968c3963267aed65"
+      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.25/rusty-commit-v1.0.25-x86_64-apple-darwin.tar.gz"
+      sha256 "623f83c9dad9d6a2bed6d3439fea6c166dee62f44aa9cdb845d48729ed1983d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.24/rusty-commit-v1.0.24-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ca540d58e2e6b7facb2ff3b653afc1a9a0d64bcfddbda74b8513832192abe7fd"
+      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.25/rusty-commit-v1.0.25-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9e169ae8bb2a07bb7b9b09b727d9bae4d7670d7881a6ba9d5dd3152013e3356b"
     end
     on_x86_64 do
-      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.24/rusty-commit-v1.0.24-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "59906e0186cd90edaf38d9fe3b533175b8dfd9ffd6dc756e8aefd7d3ad159406"
+      url "https://github.com/hongkongkiwi/rusty-commit/releases/download/v1.0.25/rusty-commit-v1.0.25-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a8ae7a568cca7fc921b359bf512a099ad248341551369ebae203f4aa8fedd9c0"
     end
   end
 
